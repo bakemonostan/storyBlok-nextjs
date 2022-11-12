@@ -13,7 +13,7 @@ export default function Home() {
 
       <main>
         <h2>Home</h2>
-        <p>{process.env.test}: env</p>
+        <p>Test phrase: {process.env.NEXT_PUBLIC_TEST}</p>
       </main>
     </div>
   );

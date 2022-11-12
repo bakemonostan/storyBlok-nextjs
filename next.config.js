@@ -6,9 +6,3 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-module.exports = {
-  env: {
-    test: 'my-value',
-  },
-};
-
