@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
 import {
   useStoryblokState,
@@ -28,7 +28,7 @@ export default function Home({ story }) {
 
 export async function getStaticProps() {
   // home is the default slug for the homepage in Storyblok
-  let slug = 'home';
+  let slug = 'about';
 
   // load the draft version
   let sbParams = {
@@ -46,4 +46,3 @@ export async function getStaticProps() {
     revalidate: 3600, // revalidate every hour
   };
 }
-

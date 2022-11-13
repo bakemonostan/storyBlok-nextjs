@@ -3,13 +3,21 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  text-align: center;
+}
+
+.grid {
+  border: 1px solid red;
   display: flex;
-  flex-direction: column;
+  gap: 1rem;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+}
+
+.features {
+  flex: 1 0 100px;
 }
 
 .footer {
@@ -127,3 +135,4 @@
     filter: invert(1);
   }
 }
+
